@@ -1,0 +1,80 @@
+.heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.product-card {
+    width: 250px;
+  
+  margin: 10px;
+}
+
+.tabs {
+  margin-bottom: 20px;
+  
+}
+
+.tab {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+}
+
+.add-to-cart {
+  background-color: black;
+  color:white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    height: 300px;
+    width: 250px;
+}
+.title{
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+
+}
+.price{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.compare{
+    color: #8a7f7a;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.discount{
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+}
